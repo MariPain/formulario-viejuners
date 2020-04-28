@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formularios varios</title>
+</head>
+
+<body>
+  <h1>El club viejuner</h1>
+
+  <form class="tu" action="/loQesperaElBackEnd" method="post">
+    <fieldset>
+      <legend>
+        <h2>Tu</h2>
+      </legend>
+      <label for="fname">Nombre:</label>
+      <input type="text" id="fname" name="fname" autofocus><br><br>
+      <label for="lname">Apellido:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="fage">Edad</label>
+      <input type="number" name="fage" min="50" max="100" value="fage" placeholder="¿cuantos años tienes?"><br><br>
+      <label for="gender">Genero</label>
+      Hombre<input type="radio" name="gender" value="gender">
+      Mujer<input type="radio" name="gender" value="gender">
+      No binario<input type="radio" name="gender" value="gender"><br><br>
+      <label for="viejuner">¿Te sientes viejuner?</label>
+      <input type="checkbox" name="viejunerSi" value="viejunerSi">
+    </fieldset>
+  </form>
+  <fieldset>
+    <form action="tusCircunstancias" action="index.html" method="post">
+      <fieldset>
+        <legend>
+          <h2>Tus circunstancias</h2>
+        </legend>
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="email" value="loquesea@email.com"><br><br>
+        <label for="telefono">Teléfono</label>
+        <input type="text" name="telf" value="telefono">
+      </fieldset>
+      <input type="button" name="send" value="mandalo!">
+    </form>
+    <fieldset>
+      <form class="" action="index.html" method="post">
+        <legend>
+          <h1>Ladornzuelos de bicicletas</h1>
+        </legend>
+        <label for="date">Día del Robo</label>
+        <input type="date"><br><br>
+        <label for="hora">Hora del robo</label>
+        <input type="time" name="" id=""><br><br>
+        <label for="color">Color de la bicicleta</label>
+        <input type="color"><br><br>
+        <label for="rangoPrecio">Precio estimado de la bicicleta</label>
+        <input type="range" list="tickmarks">
+        <datalist id="tickmarks">
+          <option value="0" label="0">
+          <option value="100">
+          <option value="200">
+          <option value="300">
+          <option value="400">
+          <option value="500" label="500">
+          <option value="600">
+          <option value="700">
+          <option value="800">
+          <option value="900">
+          <option value="1000" label="1000">
+        </datalist>
+        <br><br>
+        <label for="tipoBicicleta">Tipo de bicicleta</label>
+        <select id="Bicicleta">
+          <optgroup label="Paseo">
+            <option value="senorial">Señorial</option>
+            <option value="aniPleb">Anti-plebeyos</option>
+            <option value="porEncima">Por encima del hombro</option>
+          </optgroup>
+          <optgroup label="Montaña">
+            <option value="gamusinos">Gamusinos</option>
+            <option value="hueleF">Hueleflores premium</option>
+            <option value="fango">Fango lovers</option>
+          </optgroup>
+          <optgroup label="Carreras">
+            <option value="metroymedio">Metroymedio</option>
+            <option value="trestarde">Tres de la tarde</option>
+            <option value="grupitors">Grupitors</option>
+          </optgroup>
+
+          <label for="ruedines">Ruedines</label>
+          <input type="checkbox" name="ruedines" value="ruedines"><br><br>
+          <label for="pegatina">Pegatinas</label>
+          <input type="checkbox" name="pegatina" value="pegatina"><br><br>
+          <label for="cestita">Cestita</label>
+          <input type="checkbox" name="cestita" value="cestita"><br><br>
+          <label for="bombaire">Bomba de aire</label>
+          <input type="checkbox" name="bombaire" value="bombaire"><br><br>
+          <label for="timbre">Timbre</label>
+          <input type="checkbox" name="timbre" value="timbre"><br><br>
+          <label for="foco">Foco</label>
+          <input type="checkbox" name="foco" value="foco"><br><br>
+
+          ¿Qué marca era?<input list="lbicis" name="lbicis">
+          <datalist id="lbicis">
+            <option value="specialized">
+            <option value="trek">
+            <option value="merida">
+            <option value="scott">
+            <option value="giant">
+            <option value="cube">
+            <option value="lapierre">
+            <option value="orbea">
+            <option value="cannondale">
+            <option value="bmc">
+            <option value="canyon">
+            <option value="look">
+            <option value="protek">
+            <option value="megamo">
+            <option value="pinarello">
+            <option value="bianchi">
+            <option value="bh">
+            <option value="factor">
+            <option value="ghost">
+            <option value="cervélo">
+            <option value="argon">
+          </datalist><br><br>
+          <label for="submit">¿está mi bici por ahí?</label>
+          <input type="submit">
+        </select>
+      </form>
+
+    </fieldset>
+
+</body>
+
+</html>
